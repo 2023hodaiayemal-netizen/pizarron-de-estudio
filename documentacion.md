@@ -19,4 +19,26 @@ Implementá el Pizarrón de estudio de Órbita de Ideas en index.html, style.css
 
 ## Pruebas y versiones
 
-Pendiente hasta implementar y verificar la aplicación.
+Se verificaron el 24/11/2026:
+
+- Alta, edición, eliminación y filtro de notas.
+- Persistencia tras recargar y recuperación segura ante JSON corrupto.
+- Aviso no bloqueante cuando `localStorage` no está disponible.
+- `2 km = 2000 m`, `1 kg = 1000 g`, `0 °C = 32 °F` y `0 °C = 273.15 K`.
+- Rechazo de campos vacíos, valores no finitos y temperaturas bajo cero absoluto.
+- Invalidación del resultado al cambiar valor o unidades.
+- Guardado de `2 KM = 2000 M` como nota de Cálculos.
+- Pruebas automatizadas y sintaxis con `node --test tests/board.test.js` y `node --check script.js`.
+
+## Evidencia
+
+![Pizarrón funcionando](evidencias/pizarron-funcionando.png)
+
+## Estado
+
+- [x] Sketch local
+- [x] CRUD y filtros
+- [x] Persistencia tolerante a errores
+- [x] Tres tipos de conversión
+- [x] Conversión guardada como nota
+- [x] PDF local generado
