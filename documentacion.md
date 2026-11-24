@@ -5,7 +5,11 @@
 - Estudiante: Hodaia Yemal
 - Tecnologías: HTML, CSS, JavaScript y localStorage
 - Repositorio: https://github.com/2023hodaiayemal-netizen/pizarron-de-estudio
-- Sketch previo: `evidencias/sketch-pizarron.drawio` y `evidencias/sketch-pizarron.png`
+- Sketch previo: `evidencias/sketch-pizarron.png`
+
+**Evidencia del editor:** captura auténtica del archivo abierto en diagrams.net/moqups.
+
+![Sketch del pizarrón abierto en moqups](evidencias/evidencia-editor-moqups.png)
 
 ## Planeamiento
 
@@ -14,7 +18,7 @@ Una sola pantalla combina notas y conversor. Las notas permiten alta, edición, 
 ## Prompt inicial
 
 ```text
-Implementá el Pizarrón de estudio de Órbita de Ideas en index.html, style.css y script.js. En una pantalla incluí CRUD de notas con categorías Repasos, Dudas y Cálculos, filtro y localStorage con la clave orbita-de-ideas:notas:v1. Cada nota tiene id, texto y categoria. Sumá un conversor de longitud (m, km, cm), masa (g, kg) y temperatura (C, F, K), validando entradas y cero absoluto. Permití guardar una conversión vigente como nota y anulá el resultado cuando cambie cualquier entrada. Si localStorage está corrupto o bloqueado, avisá y mantené la aplicación usable. Usá los IDs del sketch, diseño responsive y mensajes accesibles.
+Implementá el Pizarrón de estudio de Órbita de Ideas en index.html, style.css y script.js. En una pantalla incluí notas con categorías Repasos, Dudas y Cálculos, opciones para crear, editar y eliminar, filtro y localStorage con la clave orbita-de-ideas:notas:v1. Cada nota tiene id, texto y categoria. Sumá un conversor de longitud (m, km, cm), masa (g, kg) y temperatura (C, F, K), validando entradas y cero absoluto. Permití guardar una conversión vigente como nota y anulá el resultado cuando cambie cualquier entrada. Si localStorage está corrupto o bloqueado, avisá y mantené la aplicación usable. Usá los IDs del sketch, diseño responsive y mensajes accesibles.
 ```
 
 ## Pruebas y versiones
@@ -37,7 +41,7 @@ Se verificaron el 24/11/2026:
 ## Estado
 
 - [x] Sketch local
-- [x] CRUD y filtros
+- [x] Creación, edición, eliminación y filtros de notas
 - [x] Persistencia tolerante a errores
 - [x] Tres tipos de conversión
 - [x] Conversión guardada como nota
